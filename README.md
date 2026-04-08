@@ -49,6 +49,7 @@ Example of testing on new sentences:
 * Train on more diverse datasets beyond IMDB
 * Add TensorBoard or Matplotlib live plotting
 * Hyperparameter tuning for better generalization
+* Deployment using streamlit
 
 ## Acknowledgements
 * IMDB dataset via Hugging Face datasets library
