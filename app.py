@@ -12,6 +12,23 @@ st.set_page_config(
     layout="centered"
 )
 
+# PAGE CONFIG
+st.set_page_config(
+    page_title="Sentiment Movie Analyzer",
+    page_icon="🎬",
+    layout="centered"
+)
+
+# SIDEBAR LINK
+st.sidebar.title("About")
+st.sidebar.markdown(
+    """
+    🔗 [GitHub Repository](https://github.com/RUSHIPATIL2003/sentiment-lstm-pytorch)  
+    Check out the full code and project details.
+    """
+)
+
+
 # -------- MOBILE CSS --------
 st.markdown("""
 <style>
