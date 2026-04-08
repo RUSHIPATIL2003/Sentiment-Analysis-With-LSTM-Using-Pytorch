@@ -1,6 +1,7 @@
 # Sentiment Analysis with LSTM in PyTorch
 
-This project implements a **sentiment analysis model** using an LSTM network in PyTorch to classify movie reviews from the IMDB dataset as positive or negative.
+This project implements a **sentiment analysis web app** using a **bidirectional LSTM** in PyTorch to classify movie reviews from the **IMDB dataset** as **positive** or **negative**.  
+It includes a **Streamlit UI**, **confidence visualization**.
 
 ##  Reference & Methodology
 
@@ -14,11 +15,13 @@ The project leverages the core concepts of LSTM (Long Short-Term Memory) network
 
 ##  Key Features
 
-* LSTM-based sentiment classifier
-* Bidirectional LSTM for better context understanding
-* Custom data loader with padding support
-* Training and evaluation loop with progress visualization
-* Prediction function for arbitrary input text
+- LSTM-based sentiment classifier  
+- Bidirectional LSTM for better context understanding  
+- Custom data loader with padding support  
+- Training & evaluation loop with live metrics visualization  
+- Web app interface with **mobile-friendly UI**  
+- Emoji-based sentiment output & confidence bar chart  
+- Quick prediction on arbitrary input text  
 
 ## 📊 Results
 
@@ -41,6 +44,19 @@ Example of testing on new sentences:
    ```bash
    pip install -r requirements.txt
 
+2. Create a virtual environment (optional but recommended):
+   ```bash
+   python -m venv lstm_env
+   source lstm_env/bin/activate   # Linux/macOS
+   lstm_env\Scripts\activate      # Windows
+
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+
+4. Run the Streamlit web app:
+   ```bash
+   streamlit run app.py
 
 
 ## Future Improvements

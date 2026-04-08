@@ -5,3 +5,4 @@ huggingface_hub
 matplotlib
 tqdm
 numpy
+streamlit
