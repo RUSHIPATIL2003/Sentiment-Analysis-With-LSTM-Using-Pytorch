@@ -2,7 +2,7 @@
 
 This project implements a **sentiment analysis web app** using a **bidirectional LSTM** in PyTorch to classify movie reviews from the **IMDB dataset** as **positive** or **negative**.  
 It includes a **Streamlit UI**, **confidence visualization**.
-
+ 
 ## 🔗 Live Demo
 
 Try the model live on Streamlit:
