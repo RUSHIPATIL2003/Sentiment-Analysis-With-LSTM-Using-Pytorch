@@ -21,7 +21,7 @@ The project leverages the core concepts of LSTM (Long Short-Term Memory) network
 
 ##  Key Features
 
-- LSTM-based sentiment classifier  
+- LSTM-based sentiment classifier   
 - Bidirectional LSTM for better context understanding  
 - Custom data loader with padding support  
 - Training & evaluation loop with live metrics visualization  
