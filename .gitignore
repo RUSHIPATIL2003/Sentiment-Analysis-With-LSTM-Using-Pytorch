@@ -6,6 +6,7 @@ __pycache__/
 *.env
 *.ipynb_checkpoints/
 
+
 # virtual environment
 lstm_env/
 
