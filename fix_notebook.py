@@ -25,4 +25,4 @@ def strip_widget_metadata(file_path):
         print("No 'widgets' metadata found. The file might already be clean.")
 
 if __name__ == "__main__":
-    strip_widget_metadata(filename)
+    strip_widget_metadata()
