@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # -------- PAGE CONFIG --------
 st.set_page_config(
     page_title="Sentiment Movie Analyzer",
-    page_icon="🎬",
+    page_icon="",
     layout="centered"
 )
 
