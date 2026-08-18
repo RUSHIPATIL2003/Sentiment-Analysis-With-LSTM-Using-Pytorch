@@ -23,7 +23,7 @@ st.set_page_config(
 st.sidebar.title("About")
 st.sidebar.markdown(
     """
-    🔗 [GitHub Repository](https://github.com/RUSHIPATIL2003/sentiment-lstm-pytorch)  
+    🔗 [GitHub Repository] (https://github.com/RUSHIPATIL2003/sentiment-lstm-pytorch)  
     Check out the full code and project details.
     """
 )
