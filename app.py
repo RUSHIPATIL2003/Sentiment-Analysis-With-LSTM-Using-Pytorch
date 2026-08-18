@@ -65,6 +65,7 @@ class LSTM(nn.Module):
             output_dim
         )
 
+
         self.dropout = nn.Dropout(dropout_rate)
 
     def forward(self, ids, length):
